@@ -17,8 +17,8 @@ public class Main {
             array[i] = random.nextInt((max - min) + 1) + min;
         }
 
-        BubbleSort bs = new BubbleSort();
-        bs.sort(array);
+        InsertionSort is = new InsertionSort();
+        is.sort(array);
         System.out.println(Arrays.toString(array));
     }
 }
